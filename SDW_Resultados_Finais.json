@@ -1,0 +1,52 @@
+[
+  {
+    "UserID": 1,
+    "name": "Joao",
+    "news": [
+      {
+        "icon": "https://digitalinnovationone.github.io/santander-dev-week-2023-api/icons/credit.svg",
+        "description": "Joao, Invista globalmente para diversificar riscos e aumentar ganhos!"
+      }
+    ]
+  },
+  {
+    "UserID": 2,
+    "name": "Victor",
+    "news": [
+      {
+        "icon": "https://digitalinnovationone.github.io/santander-dev-week-2023-api/icons/credit.svg",
+        "description": "Victor, Proteja seu patrimônio com investimentos em moedas fortes."
+      }
+    ]
+  },
+  {
+    "UserID": 3,
+    "name": "Thomas",
+    "news": [
+      {
+        "icon": "https://digitalinnovationone.github.io/santander-dev-week-2023-api/icons/credit.svg",
+        "description": "Thomas, O mercado internacional oferece oportunidades que o Brasil não tem."
+      }
+    ]
+  },
+  {
+    "UserID": 4,
+    "name": "Jairo",
+    "news": [
+      {
+        "icon": "https://digitalinnovationone.github.io/santander-dev-week-2023-api/icons/credit.svg",
+        "description": "Jairo, Diversificação internacional é a chave para um futuro seguro."
+      }
+    ]
+  },
+  {
+    "UserID": 5,
+    "name": "Vinicius",
+    "news": [
+      {
+        "icon": "https://digitalinnovationone.github.io/santander-dev-week-2023-api/icons/credit.svg",
+        "description": "Vinicius, Proteja seu patrimônio com investimentos em moedas fortes."
+      }
+    ]
+  }
+]
