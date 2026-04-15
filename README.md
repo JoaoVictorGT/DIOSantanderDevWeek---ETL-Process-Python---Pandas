@@ -1,5 +1,3 @@
-# 🏦 Santander Dev Week 2023 - Pipeline ETL com Python
-
 Este repositório contém a resolução do desafio de projeto da Santander Dev Week na DIO. O objetivo principal é demonstrar o domínio do fluxo **ETL (Extract, Transform, Load)** utilizando a linguagem Python e bibliotecas de manipulação de dados.
 
 ## 📋 Contexto do Projeto
@@ -11,22 +9,17 @@ O objetivo é engajar clientes bancários através de mensagens personalizadas s
 * **OpenAI (v0.28)**: Utilizada para a lógica de geração de mensagens personalizadas via GPT-3.5.
 * **JSON**: Formato utilizado para a carga final dos dados.
 
-## 🔄 O Processo ETL
+# 📊 Processo ETL - Santander Dev Week 2026
 
-### 1. Extract (Extração)
-Os dados foram extraídos do arquivo `SDW2026.csv`. Durante esta etapa, foi realizado o tratamento de delimitadores e a normalização de strings para garantir que o pipeline de dados fosse robusto contra erros de formatação.
+Este repositório armazena os artefatos de dados gerados durante o desafio de projeto de ETL com Python.
 
-### 2. Transform (Transformação)
-Implementação de lógica para criação de mensagens personalizadas. 
-> **Nota técnica:** Devido à descontinuação da API original e limitações de cota de API externa, foi implementada uma função de simulação de IA para garantir a continuidade do fluxo e a entrega dos resultados esperados pelo negócio.
+## 📂 Arquivos Disponíveis
 
-### 3. Load (Carregamento)
-O carregamento final foi adaptado para a geração de um arquivo JSON (`resultado_final_projeto.json`), simulando o que seria o retorno de uma requisição `PUT` para um banco de dados ou API de destino.
+### 1. [SDW2026.csv](./SDW2026.csv)
+**Fase de Extract:** Arquivo de entrada contendo a lista de IDs e nomes dos clientes que foram processados pelo pipeline.
 
-## 📂 Arquivos no Repositório
-* `SantanderDevWeek2023.ipynb`: Notebook com todo o código Python desenvolvido.
-* `SDW2026.csv`: Fonte de dados inicial.
-* `resultado_final_projeto.json`: Resultado final após o processamento ETL.
+### 2. [resultado_final_projeto.json](./resultado_final_projeto.json)
+**Fase de Load:** Resultado final do processo. Este arquivo contém os dados originais dos clientes enriquecidos com mensagens personalizadas sobre investimentos internacionais, simulando a carga em um banco de dados NoSQL ou API.
 
-## 🎓 Conclusão
-Este projeto foi fundamental para exercitar a resiliência técnica, lidando com migrações de bibliotecas (OpenAI), gerenciamento de autenticação e adaptação de infraestrutura em tempo real.
+---
+**Nota:** O processamento foi realizado via Google Colab, utilizando a biblioteca Pandas para manipulação e lógica de transformação para personalização de mensagens
